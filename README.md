@@ -46,7 +46,7 @@ Every code push triggers the pipeline, runs the test suite, and ensures continuo
    ```bash
    pytest
    ```
-![Screenshots](Screenshots/image.png)
+
 ### Run on CI/CD (GitHub Actions)
 
 * On every **git push**, the workflow runs:
@@ -96,5 +96,5 @@ jobs:
 collected 2 items
 test_app.py ..                                     [100%]
 ```
-
+![Screenshots](Screenshots/image.png)
 ✅ Build Passing — tests succeed on every push.
